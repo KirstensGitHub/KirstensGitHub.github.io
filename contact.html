@@ -1,0 +1,92 @@
+<!--
+You may use this in any way, on any site, all we ask is that you please keep the link(s) crediting the author.   Though this is not mandatory, it is certainly appreciated.
+ -->
+ <?php
+if($_POST["message"]) {
+    mail("Kirsten.K.Ziman@Dartmouth.edu", "Form to email message", $_POST["message"], "From: an@email.address");
+}
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+
+	<title>K Ziman</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="bluebliss.css" />
+  <style> .indented {   padding-left: 50pt;   padding-right: 50pt; } </style> 
+
+</head>
+
+
+<body>
+
+<div id="mainContentArea">
+	<div id="contentBox">
+      <div id="title">Kirsten Ziman</div>
+        
+        <div id="linkGroup">
+            <div class="link"><a href="index.html">About</a></div>
+            <div class="link"><a href="research.html">Research</a></div>
+            <div class="link"><a href="contact.html">Contact</a></div>
+            <div class="link"><a href="interests.html">Interests</a></div>
+            <!--div class="link"><a href="index.html">Contact</a></div-->
+        </div>
+        
+        <div id="blueBox"> 
+          <div id="header"></div>
+          <!-- ^^adds rounded top to content box -->
+          
+          <div class="pageContent">
+            <!--div class="contentTitle">Papers</div-->
+            <!--img src = "kirsten_ziman.png" height="150"-->
+    
+            
+            <p><strong>
+              Kirsten.K.Ziman</strong> (at) <strong>Dartmouth</strong> (dot) <strong>edu</strong>
+              </strong>
+              <br />
+              Dartmouth College, Department of Psychological and Brain Sciences
+              <br />
+              6207 Moore Hall, Hanover, NH <br />
+              
+
+              <!--img src = 'callme.jpeg' height="200"-->
+            </p>
+
+            
+
+            
+              
+              <!--div class="contentTitle">About Me...</div-->
+              
+
+              <font color="purple">
+              
+              <hr><br />
+              
+              
+              <form method="post" action="contact.php" enctype="text/plain">
+              Email Address:<br>
+                <input type="text" name="Contact"><br>
+                Message:<br>
+                <!--input type="text" name="Message" value="Brief statement of interest..."><br><br-->
+                <textarea rows="5" cols="80" type="text" name="Message">
+                </textarea>
+                <br />
+                <input type="submit" value="Submit">
+                </form>
+              
+
+
+          </div>
+
+            <div id="footer"><a href="http://www.aszx.net">web development</a> by <a href="http://www.bryantsmith.com">bryant smith</a></div>
+        </div>
+  </div>
+</div>
+
+
+</body>
+</html>
