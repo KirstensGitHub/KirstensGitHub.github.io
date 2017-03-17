@@ -99,6 +99,19 @@ margin-bottom:12px;
 width:573px;
 }
 
+.contentTitle2
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#213E74;
+font-size:19px;
+margin-left:15px;
+margin-right:12px;
+margin-bottom:12px;
+width:573px;
+text-decoration: underline;
+border-bottom: 1px
+}
+
 .pageContent
 {
 font-family: Arial, Helvetica, sans-serif;
@@ -118,6 +131,16 @@ width:560px;
 	width:600px;
 	clear:both;
 }
+
+#blueBox2
+{
+  position: absolute;
+  vertical-align: middle;
+  background-color:#E7EDF8;
+  width:600px;
+  clear:both;
+}
+
 
 #header
 {
