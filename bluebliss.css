@@ -1,7 +1,7 @@
 html
 {
   overflow: scroll;
-  height: 99%;
+  height: 90%;
 }
 
 html {
@@ -41,7 +41,7 @@ body
   display: table; 
   height: 100%;  
   position: relative; 
-  overflow: hidden; 
+  overflow: scroll; 
   width: 600px;
 }
 
