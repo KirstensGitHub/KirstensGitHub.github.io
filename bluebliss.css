@@ -1,7 +1,14 @@
 html
 {
-  overflow: hidden;
+  overflow: scroll;
   height: 99%;
+}
+
+html {
+    zoom: 1.5; /* Old IE only */
+    -moz-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
 }
                          
 body
