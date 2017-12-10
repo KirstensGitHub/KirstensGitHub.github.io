@@ -5,7 +5,7 @@ html
 }
 
 html {
-    zoom: 1.5; /* Old IE only */
+    zoom: 1; /* Old IE only */
     -moz-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
