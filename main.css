@@ -1,0 +1,243 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+header {
+    background: none;
+}
+
+.navbar-brand {
+    font-family: 'EB Garamond', serif;
+}
+
+.nav-item {
+    font-family: 'Dosis', sans-serif;
+}
+
+.name {
+    padding: 10px;
+    font-family: 'EB Garamond', serif;
+}
+
+.title {
+    padding: 10px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.about {
+    font-size: 1em;
+    font-family: 'Dosis', sans-serif;
+}
+
+#home {
+    background-image: url(background-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#fullPage {
+    background-color: #eee;
+    color: #2e2e2e;
+}
+
+h1 {
+    font-size: 3em !important;
+    margin-bottom: -20px !important;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-family: 'EB Garamond', serif !important;
+    font-size: 2em;
+    color: #eee;
+}
+
+
+.landing {
+    padding-top: 100px;
+    padding-left: 60px;
+    padding-bottom: 30%;
+    color: #eee;
+}
+
+.landing-text {
+    padding: 100px 0;
+    color: #2e2e2e;
+    text-align: center;
+}
+
+.card {
+    border: none !important;
+}
+
+.card-title {
+    font-family: 'EB Garamond', serif;
+}
+
+.card-text {
+    font-family: 'Dosis', sans-serif;
+}
+
+.research {
+    padding-top: 100px;
+    padding-left: 60px;
+    padding-bottom: 30%;
+    color: #2e2e2e;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    padding: 10px 10px;
+}
+
+
+hr {
+    background-color: #eee;
+}
+
+.research-img {
+    margin: 40px 20px;
+    width: 100%;
+    float: right;
+}
+
+.research-item {
+    padding-top: 40px;
+    font-family: 'Dosis', sans-serif;
+    color: #2e2e2e;
+}
+
+.btn {
+    padding: 50px 60px;
+}
+
+.view-btns {
+    padding-top: 60px;
+    align-content: center;
+    width: 100%;
+}
+
+/* Animated Intro */
+.animate-reveal {
+    letter-spacing: 2px;
+    opacity: 0;
+    -webkit-animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+       -moz-animation: reveal 1s ease-in 1 normal forwards;
+         -o-animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+            animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+  }
+  
+  .animate-first {
+    -webkit-animation-delay: 0;
+       -moz-animation-delay: 0;
+         -o-animation-delay: 0;
+            animation-delay: 0;
+  }
+  
+  .animate-second {
+    -webkit-animation-delay: 500ms;
+       -moz-animation-delay: 500ms;
+         -o-animation-delay: 500ms;
+            animation-delay: 500ms;
+  }
+  
+  .animate-third {
+    -webkit-animation-delay: 1s;
+       -moz-animation-delay: 1s;
+         -o-animation-delay: 1s;
+            animation-delay: 1s;
+  }
+  
+  @-webkit-keyframes reveal {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(100%);
+         -moz-transform: translateY(100%);
+           -o-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+         -moz-transform: translateY(0);
+           -o-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+  
+  @-moz-keyframes reveal {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(100%);
+         -moz-transform: translateY(100%);
+           -o-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+         -moz-transform: translateY(0);
+           -o-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+  
+  @-o-keyframes reveal {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(100%);
+         -moz-transform: translateY(100%);
+           -o-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+         -moz-transform: translateY(0);
+           -o-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+  
+  @keyframes reveal {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(100%);
+         -moz-transform: translateY(100%);
+           -o-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+         -moz-transform: translateY(0);
+           -o-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+
+  footer {
+      background-color: #e0e0e0;
+
+  }
+
+  footer a {
+      color: #2e2e2e;
+  }
+
+  footer h5 {
+      font-family: 'EB Garamond', serif;
+  }
+  
+  footer p {
+      font-family: 'Dosis', sans-serif;
+  }
