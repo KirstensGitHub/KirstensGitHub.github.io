@@ -155,7 +155,7 @@ h2 {
     -moz-transtition: .5s;
     -webkit-transition: .5s;
     transition: .5s;
-    color: #d1a498;
+    color: #ec6;
 }
 
 hr {
@@ -166,6 +166,7 @@ hr {
     margin: 40px 20px;
     width: 100%;
     float: right;
+    border: 4px double #723;
 }
 
 .research-item {
