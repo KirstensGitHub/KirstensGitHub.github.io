@@ -1,5 +1,6 @@
 html,body
 {
+    background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -22,6 +23,7 @@ header {
 .name {
     padding: 10px;
     font-family: 'EB Garamond', serif;
+    margin: -5px -5px;
 }
 
 .title {
@@ -40,6 +42,12 @@ header {
     background-repeat: no-repeat;
 }
 
+.header {
+    text-align: center;
+    color: #eee;
+    padding: 40px 40px;    
+}
+
 #fullPage {
     background-color: #eee;
     color: #2e2e2e;
@@ -47,7 +55,7 @@ header {
 
 h1 {
     font-size: 3em !important;
-    margin-bottom: -20px !important;
+    font-family: 'EB Garamond',serif !important;
 }
 
 h3 {
@@ -74,17 +82,52 @@ h2 {
     text-align: center;
 }
 
-.card {
-    border: none !important;
+.hr-text {
+    margin: 0 0;
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: .5;
 }
 
-.card-title {
+.hr-text:before {
+        content: '';
+        background-color: #aaa;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        height: 1px;
+}
+.hr-text:after {
+        content: attr(data-content);
+        position: relative;
+        display: inline-block;
+        color: black;
+        padding: 0 .5em;
+        line-height: 1.5em;
+        background-color: #fff;
+}
+
+.card {
+    box-shadow: 2px 5px 4px#aaa;
+    background-color: rgba(255, 255, 255, 0.77) !important;
+    padding-bottom: 0px;
+}
+
+.card-title h3 {
     font-family: 'EB Garamond', serif;
+    padding: 10px 10px;
 }
 
 .card-text {
     font-family: 'Dosis', sans-serif;
 }
+
 
 .research {
     padding-top: 100px;
@@ -99,21 +142,42 @@ h2 {
     padding: 10px 10px;
 }
 
+.icons {
+    margin: -5px -5px;
+}
+.icon-btn {
+    padding: 10px 25px;
+
+}
+.icon-btn:hover {
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transtition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    color: #ec6;
+}
 
 hr {
-    background-color: #eee;
+    background-color: #fff;
 }
 
 .research-img {
     margin: 40px 20px;
     width: 100%;
     float: right;
+    border: 4px double #723;
 }
 
 .research-item {
     padding-top: 40px;
     font-family: 'Dosis', sans-serif;
     color: #2e2e2e;
+}
+
+.research-item button {
+    font-style: oblique;
+    font-family: 'EB Garamond',sans-serif;
 }
 
 .btn {
@@ -226,8 +290,7 @@ hr {
   }
 
   footer {
-      background-color: #e0e0e0;
-
+      background-color: #eeeeee;
   }
 
   footer a {
