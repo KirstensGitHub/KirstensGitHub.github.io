@@ -1,5 +1,4 @@
-html,body
-{
+html,body {
     background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
     width: 100%;
     height: 100%;
@@ -20,6 +19,15 @@ header {
     font-family: 'Dosis', sans-serif;
 }
 
+#nav-tab {
+    margin-left: 70px;
+
+}
+
+#nav-tab .active {
+    background-color: rgba(255, 255, 255);
+}
+
 .name {
     padding: 10px;
     font-family: 'EB Garamond', serif;
@@ -31,13 +39,44 @@ header {
     font-family: 'Dosis', sans-serif;
 }
 
+.title a {
+    text-decoration: none;
+    color: #eee;
+}
+
+.title a:hover {
+    text-decoration: none;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transtition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    color: #ec6;
+}
+
+.white-text {
+    color: #eee;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 1.5px;
+}
+
 .about {
     font-size: 1em;
     font-family: 'Dosis', sans-serif;
 }
 
-#home {
+.bg {
     background-image: url(background-img.png);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-head {
+    background-image: url(background-img.png);
+    height: 30%;
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -114,7 +153,7 @@ h2 {
 }
 
 .card {
-    box-shadow: 2px 5px 4px#aaa;
+    box-shadow: 1px 3px 10px #723;
     background-color: rgba(255, 255, 255, 0.77) !important;
     padding-bottom: 0px;
 }
@@ -130,16 +169,26 @@ h2 {
 
 
 .research {
-    padding-top: 100px;
+    padding-top: 20px;
     padding-left: 60px;
-    padding-bottom: 30%;
+    padding-bottom: 100px;
     color: #2e2e2e;
+    background-color: rgba(255, 255, 255, 0.77); 
+}
+
+.panel {
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+i {
+    padding: 10px 10px;
 }
 
 .icon {
     width: 80px;
     height: 80px;
-    padding: 10px 10px;
+    margin-top: 20px;
 }
 
 .icons {
@@ -163,7 +212,7 @@ hr {
 }
 
 .research-img {
-    margin: 40px 20px;
+    margin-top: 40px;
     width: 100%;
     float: right;
     border: 4px double #723;
@@ -181,7 +230,7 @@ hr {
 }
 
 .btn {
-    padding: 50px 60px;
+    margin: 30px 30px;
 }
 
 .view-btns {
@@ -192,7 +241,7 @@ hr {
 
 /* Animated Intro */
 .animate-reveal {
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     opacity: 0;
     -webkit-animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
        -moz-animation: reveal 1s ease-in 1 normal forwards;
@@ -290,7 +339,7 @@ hr {
   }
 
   footer {
-      background-color: #eeeeee;
+      background-color: rgba(255, 255, 255, 0.77);
   }
 
   footer a {
