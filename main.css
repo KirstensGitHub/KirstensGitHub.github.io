@@ -71,16 +71,16 @@ header {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment:fixed
+    
 }
 
 .bg-head {
     background-image: url(background-img.png);
-    height: 100%;
+    height: 30%;
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment:fixed;
+   
 }
 
 .header {
