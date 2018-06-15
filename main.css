@@ -383,12 +383,14 @@ hr {
           float: none;
           width: auto;
       }
-      .landing {
-          font-size: 2.5em;
+      .landing, .interestsText {
+          font-size: 2em;
+          margin: 10px 10px;
       }
       nav {
           float: none;
           width: auto;
           font-size: 2em;
       }
+
   }
