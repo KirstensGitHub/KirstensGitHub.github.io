@@ -377,3 +377,20 @@ hr {
   footer p {
       font-family: 'Dosis', sans-serif;
   }
+
+  @media screen and (max-width: 1020px) {
+      .row {
+          float: none;
+          width: auto;
+      }
+      .landing, .interestsText {
+          font-size: 2em;
+          margin: 10px 10px;
+      }
+      nav {
+          float: none;
+          width: auto;
+          font-size: 2em;
+      }
+
+  }
