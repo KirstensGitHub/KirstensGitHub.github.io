@@ -32,6 +32,8 @@ header {
     padding: 10px;
     font-family: 'EB Garamond', serif;
     margin: -5px -5px;
+    font-size: 160%;  
+    
 }
 
 .title {
@@ -71,6 +73,7 @@ header {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
 
 .bg-head {
@@ -79,6 +82,7 @@ header {
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
+   
 }
 
 .header {
@@ -173,7 +177,7 @@ h2 {
     padding-left: 60px;
     padding-bottom: 100px;
     color: #2e2e2e;
-    background-color: rgba(255, 255, 255, 0.77); 
+    background-color: rgba(255, 255, 255, 0.45); 
 }
 
 .panel {
@@ -324,7 +328,7 @@ hr {
   @keyframes reveal {
     0% {
       opacity: 0;
-      -webkit-transform: translateY(100%);
+      -webkit-transform: translateY(100f);
          -moz-transform: translateY(100%);
            -o-transform: translateY(100%);
               transform: translateY(100%);
