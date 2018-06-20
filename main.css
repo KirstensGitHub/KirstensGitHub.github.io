@@ -376,8 +376,14 @@ hr {
     }
 }
 
-footer a {
-    color: #2e2e2e;
+.page-footer a {
+    color: #ccc;
+}
+
+.page-footer a:hover {
+    color: #eee !important;
+    transition: .5s;
+    text-decoration: none;
 }
 
 footer h5 {
@@ -386,6 +392,7 @@ footer h5 {
 
 footer p {
     font-family: 'Dosis', sans-serif;
+    color: #ccc;
 }
 
 @media screen and (max-width: 1020px) {
