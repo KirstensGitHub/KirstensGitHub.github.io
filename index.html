@@ -26,18 +26,16 @@
 
 </head>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-
-        <!--a class="navbar-brand" href="#">Ziman, K.</a-->
-        <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="./index.html">Home</a>
-            <a class="nav-item nav-link" href="./research.html">Publications</a>
-            <a class="nav-item nav-link" href="./interests.html">Interests</a>
-            <a class="nav-item nav-link" href="./contact.html">Contact</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
-        </div>
+    <nav class="navbar navbar-expand-lg navbar-dark" role="navigation">
+            <div class="topnav navbar-nav" id="myTopnav">
+                <a class="nav-item nav-link active" href="./index.html">Home</a>
+                <a class="nav-item nav-link" href="./research.html">Publications</a>
+                <a class="nav-item nav-link" href="./interests.html">Interests</a>
+                <a class="nav-item nav-link" href="./contact.html">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                </a>
+            </div>
     </nav>
 </header>
 
@@ -160,7 +158,6 @@
     $(function () {
         $('[data-toggle="tooltip"]').tooltip();
     });
-
     function myFunction() {
         var x = document.getElementById("myTopnav");
         if (x.className === "topnav") {
@@ -172,3 +169,4 @@
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
