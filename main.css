@@ -412,11 +412,12 @@ footer p {
   .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #aaa;
     text-align: center;
-    padding: 14px 16px;
+    margin: 10px 10px;
+    padding: 10px 10px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 14px;
   }
   
   .topnav a:hover {
@@ -426,7 +427,8 @@ footer p {
   }
   
   .active {
-    color: white;
+    color: white !important;
+    border-bottom: .7px solid white;
   }
   
   .topnav .nav-icon {
