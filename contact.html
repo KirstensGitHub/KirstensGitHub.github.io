@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>K Ziman</title>
 
+  <!--Favicon-->
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
   <!--My CSS-->
   <link rel="stylesheet" type="text/css" href="./main.css">
 
@@ -22,26 +25,29 @@
 
 </head>
 
-<body id="fullPage">
 
-  <!--Nav bar and Header-->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <!--a class="navbar-brand" href="#">Ziman, K.</a-->
-      <div class="navbar-nav">
-        <a class="nav-item nav-link" href="./index.html">Home </a>
-        <a class="nav-item nav-link" href="./research.html">Publications</a>
-        <a class="nav-item nav-link" href="./interests.html">Interests</a>
-        <a class="nav-item nav-link active" href="./contact.html">Contact</a>
+<header>
+    <div class="navbar-dark topnav" id="myTopnav">
+        <a href="./index.html" class="nav-item nav-link">Home</a>
+        <a href="./research.html" class="nav-item nav-link ">Research</a>
+        <a href="./interests.html" class="nav-item nav-link active">Interests</a>
+        <a href="./contact.html" class="nav-item nav-link">Contact</a>
+        <a href="javascript:void(0);" class="nav-icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
-    </nav>
-    <div class="header">
-      <h1>Contact</h1>
-      
-    </div>
-    <div class="container">
-      <center>
+</header>
+
+<body id="fullPage">
+  <div class="header">
+    <h1>Contact</h1>
+
+  </div>
+  <div class="container">
+    <center>
       <p class="white-text">
-        <b>Shoot me a message (below) or email </b><strong>
+        <b>Shoot me a message (below) or email </b>
+        <strong>
           Kirsten.K.Ziman.gr</strong> (at)
         <strong>Dartmouth</strong> (dot)
         <strong>edu</strong>
@@ -50,11 +56,11 @@
         <br />
         <br />
       </p>
- 
-  
+
+
 
       <!--script type="text/javascript" defer src="//www.123formbuilder.com/embed/2743058.js" data-role="form" data-default-width="650px"></script-->
-      
+
       <!-- www.123formbuilder.com script begins here -->
       <script type="text/javascript" defer src="//www.123formbuilder.com/embed/2743058.js" data-role="form" data-default-width="650px"></script>
       <!-- www.123formbuilder.com script ends here -->
@@ -62,26 +68,40 @@
 
 
     </center>
-      </div>
+  </div>
 
 
 </body>
 
 <!-- Footer -->
 <footer class="page-footer font-small pt-4 mt-4">
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">
-        <p>© 2018 Kirsten Ziman
-            <br> Website created by
-            <a href="https://kllewiss.github.io">Kristen Lewis</a>
-        </p>
-    </div>
-    <!-- Copyright -->
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">
+    <p>© 2018 Kirsten Ziman
+      <br> Website created by
+      <a href="https://kllewiss.github.io">Kristen Lewis</a>
+    </p>
+  </div>
+  <!-- Copyright -->
 
 </footer>
 <!-- Footer -->
 
 </html>
+
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
 
 <!--Required Bootstrap scripts-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
