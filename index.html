@@ -1,166 +1,600 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Kirsten Ziman</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Kirsten Ziman</title>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-    <!--Favicon-->
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<!-- <span class="icon fa-gem"></span> -->
+							<span class="icon"><img src="images/face_rounded.png" alt="" style="max-width:100%;max-height:100%;"/></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Kirsten Ziman</h1>
+								<!--h5--><!--p->I'm a graduate student in the <a href="https://www.context-lab.com/">Contextual Dynamics Lab</a> at Dartmouth College.<br />
+								I study attention and memory and am pursuing a PhD in Cognitive Neuroscience.<!--/h5--><!--p-->
 
-    <!--My CSS-->
-    <link rel="stylesheet" type="text/css" href="./main.css">
+								<!--h5--><!--p--><b>I'm a PhD candidate in Cognitive Neuroscience at at Dartmouth College.<br />
+								I research attention and memory in the <a href="https://www.context-lab.com/">Contextual Dynamics Lab</a>.</b><br /><!--/h5--><!--p-->
 
-    <!--Fonts: EB Garamond (serif) and Dosis (sans-serif)-->
-
-    <link href="https://fonts.googleapis.com/css?family=Dosis|EB+Garamond" rel="stylesheet">
-
-
-    <!--Bootstrap Links-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-
-    <!--Icons-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-        crossorigin="anonymous">
-</head>
-<header>  
-        <div class="navbar-dark topnav" id="myTopnav">
-                <a href="./index.html" class="active nav-item">Home</a>
-                <a href="./research.html" class="nav-item  nav-link">Research</a>
-                <a href="./interests.html" class="nav-item  nav-link">Interests</a>
-                <a href="./contact.html" class="nav-item  nav-link">Contact</a>
-                <a href="javascript:void(0);" class="nav-icon" onclick="myFunction()">
-                  <i class="fa fa-bars"></i>
-                </a>
-              </div>
-</header>
-<body>
-    <div class="d-flex flex-row justify-content-left">
-        <div class="flex-lg-column text-left landing">
-            <h1 class="animate-reveal animate-first name">
-                <!--img src="face_2.png" height="90" width="90"-->Kirsten Ziman</h1>
-            <!--hr-->
-            <h3 class="animate-reveal animate-second title">I'm a graduate student in the
-                <a href="https://www.context-lab.com/">Contextual Dynamics Lab</a> at
-                <br/> Dartmouth College.
-                <br/>
-                <br/> I study attention and memory and am pursuing a PhD
-                <br/> in Cognitive Neuroscience.</h3>
-            <div class="row icons animate-reveal animate-third justify-content-left">
-                <a href="cv-22.pdf">
-                    <i class="icon-btn fa-2x fa fa-file"></i>
-                </a>
-                <a href="https://github.com/KirstensGitHub">
-                    <i class="icon-btn fa-2x  fab fa-github-alt"></i>
-                </a>
-                <a href="https://kirstensgithub.github.io/contact.html">
-                    <i class="icon-btn fa-2x fa fa-envelope"></i>
-                </a>
-            </div>
-
-        </div>
-    </div>
-
-    <!--div class="d-flex flex-row card-deck landing-text animate-reveal animate-third">
-
-    <!--Card one-->
-    <!--div class="d-flex justify-content-around vertical-align col-lg-4">
-
-        <div class="card w-30 text-left align-items-center">
-            <img class="card-image-top icon" src="hat-icon.svg">
-            <div class="card-body">
-                <!--div class="card-title">
-                    <h3 class="text-center">Education</h3>
-                </div-->
-    <!--hr class="hr-text" data-content="Current:"-->
-    <!--p class="card-text"><br>
-                    <strong>Dartmouth College, 2017-Present</strong></br>
-                    Graduate Student, Cognitive Neuroscience.</p>
-                    <!--hr class="hr-text" data-content="Past:"-->
-    <!--p class="card-text"><br>
-                        <strong>University of Southern California, 2014</strong><br>
-                        B.S., Neuroscience</p-->
-    <!--center><a role="button" class="btn btn-primary btn-outline-dark" href="cv-2.pdf">View CV</a></center-->
-    <!--/div>
-        </div>
-    </div-->
-
-    <!--Card two-->
-    <!--div class="d-flex justify-content-around vertical-align col-lg-4">
-
-        <div class="card w-30 text-center align-items-center">
-            <img class="card-image-top icon" src="brain-icon.svg">
-            <div class="card-body">
-                <!--div class="card-title">
-                    <h3 class="text-center">Interests</h3>
-                </div-->
-    <!--hr class="hr-text" data-content="Professional:"-->
-    <!--p class="card-text"><br>
-                    I study how attention modulates subjective experience and the subsequent storage of information into memory</p>
-                    <!--hr class="hr-text" data-content="Personal:"-->
-    <!--p class="card-text"><br>
-                    In my free time I like to do yoga, meditate, scribble in my dream journal..</p>
-
-                    <center><!--a href="./interests.html" role="button" class="btn btn-outline-dark">Recent</a-->
-    </center>
-    <!--/div>
-        </div>
-    </div-->
-
-    <!--Card three-->
-    <!--div class="d-flex justify-content-around vertical-align col-lg-4">
-
-        <div class="card w-30 text-center align-items-center">
-            <img class="card-image-top icon" src="mentor-icon.svg">
-            <div class="card-body">
-                <!--div class="card-title">
-                    <h3 class="text-center">Contact Me</h3>
-                </div-->
-    <!--p class="card-text">Let's collaborate!</p-->
-    <!--p class="card-text"><br />I am always eager to <a href="https://kirstensgithub.github.io/contact.html">connect</a> with scientists, philosophers, dreamers... <br><br>
-                    Undergraduate research assistants are especially encouraged to email!
-                    </p>
-                    <br>
-                    <br>
-                        <center><!--a href="contact.html" role="button" class="btn btn-outline-dark">Contact</a-->
-    </center>
-    <!--/div>
-        </div>
-    </div-->
-</body>
-
-<!--<div>Icons made by <a href="https://www.flaticon.com/authors/itim2101" title="itim2101">itim2101</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>-->
+								<ul class="icons"><br />
+									<!--li><a href="https://twitter.com/ziman_k" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+									<!-- <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
+									<!--li><a href="https://github.com/KirstensGitHub" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.linkedin.com/in/kirstenziman/" class="icon brands fa-linkedin"><span class="label">GitHub</span></a></li>
+									<!--li><a href="https://github.com/KirstensGitHub" class="icon brands fa-github"><span class="label">GitHub</span></a></li-->
 
 
-<!-- Footer -->
-<footer class="page-footer font-small pt-4 mt-4">
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">
-        <p>© 2018 Kirsten Ziman
-            <br> Website created by
-            <a href="https://kllewiss.github.io">Kristen Lewis</a>
-        </p>
-    </div>
-    <!-- Copyright -->
+									<a href="images/CV_Ziman.pdf">
+									<i class="icon-btn fa-2x fa fa-file"></i>
+								</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href="https://github.com/KirstensGitHub">
+											<i class="icon-btn fa-2x  fab fa-github-alt"></i>
+									</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href="https://kirstensgithub.github.io/contact.html">
+											<i class="icon-btn fa-2x fa fa-envelope"></i>
 
-</footer>
-<!-- Footer -->
+
+									</a>
+								</ul>
+
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<!--li><a href="#about">CV</a></li-->
+								<li><a href="#research">Research</a></li>
+								<li><a href="#interests">Interests</a></li>
+								<li><a href="#contact">Contact</a></li>
+								<!-- <li><a href="#elements">Elements</a></li> -->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="Interests">
+								<center><h2 class="minor">About me</h2></center>
+								<!-- <span class="image main"><img src="images/about.jpg" alt="" /></span> -->
+								<p>I study how we "control" what they consciously experience from moment to moment by shifting their attention. I specifically explore how attention influences what we store into (or experience from) our personal store of memories. I'm generally interested in consciousness, meta-cognition, dreams, and other far-out stuff (like The Cambridge Declaration of Consciousness (2012)).</p>
+								<p>Out of the lab, I like to do yoga, meditate, scribble in my dream journal...</p>
+							</article>
+
+						<!-- Research -->
+						<!-- 	<article id="research">
+								<section>
+									<ul class="actions">
+										<li><div style="width:10rem;height:6rem">
+											<img src="images/hypertools.gif" alt="" style="max-width:80%;max-height: 80%; object-fit: cover"/>
+										</div></li>
+										<li>
+											<div class="inner">
+													<h3>HyperTools: A Python toolbox for visualizing and manipulating high-dimensional data</h3>
+					                				<p>Heusser A. C.*, <strong>Ziman K.*</strong>, Owen L. L. W., & Manning J. R. (2018). HyperTools: A Python
+									                   toolbox for gaining geometric insights into high-dimensional data. <em>Journal of Machine Learning Research</em>.
+									                </p><hr />
+										</div></li>
+									</ul>
+								</section> -->
+
+								<!--h2 class="major">Papers</h2-->
+
+							<article id="research">
+							<center><h1 class="minor">Publications</h1></center>
+							<center><a href="#papers">
+							<i class="icon-btn fa-2x fas fa-file-alt"></i>
+						</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<a href="#posters">
+									<i class="icon-btn fa-2x fas fa-chalkboard-teacher"></i>
+							</a>
+							<hr />
+							<section>
+							<center><h2 class="minor" id="papers">Papers</h2></center>
+							<hr /></center>
+
+							<ul class="actions">
+								<li><div style="width:10rem;height:6rem">
+									<img src="images/paradigm_and_key.jpg" alt="" style="max-width:80%;max-height: 80%; object-fit: cover"/>
+								</div></li>
+								<li>
+									<div class="inner">
+										<h3><a href="https://psyarxiv.com/2ps6e/">Feature-based and location-based attention are mediated by different mechanisms and affect memory at different timescales.</a></h3>
+										<p> <b>Ziman K</b>, Lee MR, Martinez AR, Manning JR (2019) Feature-based and location-based volitional covert attention are mediated by different mechanisms and affect memory at different timescales. <em>PsyArXiv: 10.31234/osf.io/2ps6e.</em>.<br>
+											<!--div class="btns">
+															<button type="button" class="btn-primary btn-light btn-sm" href="./hypertools_bioX.pdf">PDF</button>
+															<button type="button" class="btn-primary btn-light btn-sm" href="#">Documentation</button>
+															<button type="button" class="btn-primary btn-light btn-sm" href="#">Code</button>
+															</div-->
+
+										</p>
+									</div></li>
+								</ul>
 
 
 
-<script>
-    $(function () {
-        $('[data-toggle="tooltip"]').tooltip();
-    });
-    function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+										<ul class="actions">
+											<li><div style="width:10rem;height:6rem">
+												<img src="images/hypertools.gif" alt="" style="max-width:80%;max-height: 80%; object-fit: cover"/>
+											</div></li>
+											<li>
+												<div class="inner">
+														<h3><a href="http://jmlr.org/papers/v18/17-434.html">HyperTools: A Python toolbox for visualizing and manipulating high-dimensional data</a></h3>
+																		<p>Heusser A. C.*, <strong>Ziman K.*</strong>, Owen L. L. W., & Manning J. R. (2018). HyperTools: A Python
+																			 toolbox for gaining geometric insights into high-dimensional data. <em>Journal of Machine Learning Research</em>.
+																		</p><!--hr /-->
+											</div></li>
+										</ul>
+
+
+
+										<ul class="actions">
+											<li><div style="width:10rem;height:6rem">
+												<img src="images/Is_speech.png" alt="" style="max-width:80%;max-height: 80%; object-fit: cover"/>
+											</div></li>
+											<li>
+												<div class="inner">
+													 <h3><a href="https://link.springer.com/article/10.3758/s13428-018-1037-4">Is automatic speech-to-text transcription ready for use in psychological experiments?</a></h3>
+													 <p><strong>Ziman K.</strong>, Heusser A. C., Fitzpatrick P. C., Field C. E., & Manning J. R. (2018). Is automatic
+													 speech-to-text transcription ready for use in psychological experiments?
+													 <em>Behavior Research Methods</em>.
+												</p><!--hr /-->
+											</div></li>
+										</ul>
+
+
+										<ul class="actions">
+											<li><div style="width:10rem;height:6rem">
+												<img src="images/Quail_Logo.png" alt="" style="max-width:80%;max-height: 80%; object-fit: cover"/>
+											</div></li>
+											<li>
+												<div class="inner">
+													<h3><a href="https://joss.theoj.org/papers/10.21105/joss.00424">Quail: A Python toolbox for analyzing and plotting free recall data</a></h3>
+															<p>Heusser A. C., Fitzpatrick C. P., Field C. E., <strong>Ziman K.</strong>, & Manning J. R. (2017). Quail: A Python
+																	toolbox for analyzing and plotting free recall data. <em>The Journal of Open Source Software, 2, 424.</em>
+												</p><!--hr /-->
+											</div></li>
+										</ul>
+
+								</section>
+
+								<!--h3>HyperTools: A Python toolbox for visualizing and manipulating high-dimensional data</h3>
+                				<p>Heusser A. C.*, <strong>Ziman K.*</strong>, Owen L. L. W., & Manning J. R. (2018). HyperTools: A Python
+				                   toolbox for gaining geometric insights into high-dimensional data. <em>Journal of Machine Learning Research</em>.
+				                </p><hr /-->
+
+
+			                    <!--h3>Is automatic speech-to-text transcription ready for use in psychological experiments?</h3>
+			                    <p><strong>Ziman K.</strong>, Heusser A. C., Fitzpatrick P. C., Field C. E., & Manning J. R. (2018). Is automatic
+				                   speech-to-text transcription ready for use in psychological experiments?
+				                   <em>Behavior Research Methods</em>.
+				                </p><hr /-->
+
+				                <!--h3>Quail: A Python toolbox for analyzing and plotting free recall data</h3>
+                        		<p>Heusser A. C., Fitzpatrick C. P., Field C. E., <strong>Ziman K.</strong>, & Manning J. R. (2017). Quail: A Python
+                                toolbox for analyzing and plotting free recall data. <em>The Journal of Open Source Software, 2, 424.</em>
+                            	</p-->
+
+																<hr />
+                                <center><h2 class="minor" id="posters">Posters</h2></center>
+																<hr />
+                                <h3>Volitional attention modulates memory encoding and retrieval.</h3>
+				                <p>
+				                    <strong>Ziman K.</strong>, Lee M. R., Martinez A. R., and Manning J. R. (2018).
+				                    Volitional attention modulates memory encoding and retrieval.
+				                    <em>Society for Neuroscience.</em> San Diego, CA.
+				                </p><!--hr /-->
+
+				                <h3>Is automatic speech-to-text transcription ready for use in psychological experiments?</h3>
+				                <p>
+				                    <strong>Ziman K.</strong>, Heusser A. C., Fitzpatrick P. C., Field C. E., & Manning J. R. (2018). Is automatic
+				                    speech-to-text transcription ready for use in psychological experiments?
+				                    <em>Context and Episodic Memory Symposium.
+				                    </em> Philadelphia, PA.
+				                </p><!--hr /-->
+
+				                <h3>Effects of Study Context on Recall Organization</h3>
+				                <p>
+				                    <strong>Ziman, K.</strong>, Heusser A.C., Manning J.R. (2017). Effects of Study Context on Recall Organization.
+				                    <em>Society for Neuroscience Conference. </em>Washington, DC.
+				                </p><!--hr /-->
+
+				                <h3>Harnessing the power of mnemonic fingerprints: Maximizing learning potential by personalizing stimulus organization
+				                    during adaptive list learning</h3>
+				                <p>
+				                    <strong>Ziman, K.</strong>, Heusser A.C., Manning J.R. (2017). Harnessing the power of mnemonic fingerprints:
+				                    Maximizing learning potential by personalizing stimulus organization during adaptive list learning.
+				                    <em>Context and Episodic Memory Symposium. </em> Philadelphia, PA.
+				                </p><!--hr /-->
+
+				                <h3>Efficient Learning: Manipulating context to enhance (or diminish) memory</h3>
+				                <p>
+				                    Manning JR,<strong>Ziman, K.</strong>, Heusser AC (2017) Efficient Learning: Manipulating context to enhance (or diminish)
+				                    memory.<em>Society for Neuroscience</em>. Washington, DC. Washington, DC.
+				                </p><!--hr /-->
+
+				                <h3>Positive affect worsens ensemble coding performance</h3>
+				                <p>
+				                    <strong>Ziman, K.</strong>, Familiar, A., & Shim, W. M. (2016). Positive affect worsens ensemble coding performance.
+				                    <em>Journal of Vision, 16(12), 59-59. </em>
+				                </p><!--hr /-->
+
+				                <h3>Content of Sleep-talking Transcripts versus Dream Accounts and Waking Language</h3>
+				                <p>Barret, D., Lennon, J.,<strong>Ziman, K.</strong> (2016). Content of Sleep-talking Transcripts versus Dream Accounts and Waking Language.
+				                </p><!--hr /-->
+
+				                <h3>Comparison of Medial Temporal Subregional Thickness and Overall Brain Volume to Episodic Memory Performance in Humans</h3>
+				                <p>
+				                    Wong, W.O., Suthana, N.A., Pourshaban, D.,
+				                    <strong>Ziman, K.</strong>, Bookheimer, S., Fried, I., Knowlton, B. (2012) Comparison of Medial Temporal Subregional
+				                    Thickness and Overall Brain Volume to Episodic Memory Performance in Humans.
+				                </p>
+							</article>
+
+						<!-- Interests -->
+							<!--article id="interests">
+								<h2 class="major">About</h2>
+								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+								<p></p>
+							</article-->
+
+
+							<article id="interests">
+									<center><h2 class="minor">Research</h2></center>
+									<!-- <span class="image main"><img src="images/about.jpg" alt="" /></span> -->
+									<!--p>I study how people "control" what they consciously experience from moment to moment by shifting their attention. I specifically look at the ways this process influences what we store into (or experience from) our personal store of memories. I'm generally interested in consciousness, meta-cognition, dreams, and other far-out stuff (like The Cambridge Declaration of Consciousness (2012)).</p-->
+									<p>I study how we "control" what we experience in each moment by shifting our attention. Specifically, I explore how this affects what we store into memory. I tackle these topics together with my colleagues in the <a href="https://www.attentioninthebrain.com/">EPSCoR Attention Consortium</a>. Other research interests include consciousness, dreaming, and cognitive markers of mental illness.</p>
+
+									<center><div class="logo">
+											<!-- <span class="icon fa-gem"></span> -->
+											<span class="icon"><img src="images/poster.png" alt="" style="max-width:20%;max-height:20%;"/></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<span class="icon"><img src="images/CDL.png" alt="" style="max-width:20%;max-height:20%;"/></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<span class="icon"><img src="images/bb.png" alt="" style="max-width:20%;max-height:20%;"/></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<span class="icon"><img src="images/EP_group.png" alt="" style="max-width:20%;max-height:20%;"/></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<!-- <span class="icon fa-gem"></span> -->
+											<!-- <span class="icon fa-gem"></span> -->
+											<!--span class="icon"><img src="images/letter.jpeg" alt="" style="max-width:20%;max-height:20%;"/></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<span class="icon"><img src="images/MA_crop.png" alt="" style="max-width:20%;max-height:20%;"/></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+
+									</div></center>
+
+									<hr />
+									<center><h2 class="minor">Mentoring</h2></center>
+									<p>I've been honored to mentor over ten outstanding undergraduates, some of whom are now my co-authors! I also serve as a role model via <a href="https://www.prescientist.org/">Letters to a Pre-Scentist</a>, host booths at the <a href="https://sites.dartmouth.edu/neuroscience/upper-valley-brain-bee/">Dartmouth Brain Bee</a>, and speak annually at Richmond Middle School.<!--some of whom have even co-authored papers in our lab! I especially enjoy helping students prepare for Dartmout's annual undergraduate poster session. Pictured below are just a small handful of the awesome memories we've shared.</p-->
+									<center><div class="logo">
+											<!-- <span class="icon fa-gem"></span> -->
+											<span class="icon"><img src="images/Eowyn.png" alt="" style="max-width:20%;max-height:20%;"/></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<span class="icon"><img src="images/paxton.jpeg" alt="" style="max-width:20%;max-height:20%;"/></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<!-- <span class="icon fa-gem"></span> -->
+											<!-- <span class="icon fa-gem"></span> -->
+											<span class="icon"><img src="images/letter.jpeg" alt="" style="max-width:20%;max-height:20%;"/></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<span class="icon"><img src="images/MA_crop.png" alt="" style="max-width:20%;max-height:20%;"/></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+									</div></center><!--br /><hr /-->
+									<!--center><h2 class="minor">Outside the Lab</h2></center>
+									<p>Out of the lab, I like to do yoga, traipse through museums, and explore new places...</p-->
+									<!--center><div class="logo">
+											<!-- <span class="icon fa-gem"></span> -->
+											<!-- <span class="icon"><img src="images/face_2.png" alt="" style="max-width:20%;max-height:20%;"/></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<!-- <span class="icon fa-gem"></span> -->
+											<!--span class="icon"><img src="images/face_2.png" alt="" style="max-width:20%;max-height:20%;"/></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<!-- <span class="icon fa-gem"></span> -->
+											<!--span class="icon"><img src="images/face_2.png" alt="" style="max-width:20%;max-height:20%;"/></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<!--span class="icon"><img src="images/face_2.png" alt="" style="max-width:20%;max-height:20%;"/></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+									<!--/div></center-->
+							</article>
+
+
+						<!-- Contact -->
+							<article id="contact">
+								<center><h1 class="minor">Contact</h1><center>
+								<p> Shoot me a message (below) or email Kirsten.K.Ziman.gr (at) Dartmouth (dot) edu</p>
+								<form method="post" action="https://formspree.io/xoqevvro">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+								<ul class="icons">
+									<!--li><a href="https://twitter.com/ziman_k" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+									<!-- <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
+									<!--li><a href="https://github.com/KirstensGitHub" class="icon brands fa-github"><span class="label">GitHub</span></a></li-->
+								</ul>
+							</article>
+
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
